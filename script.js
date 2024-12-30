@@ -148,7 +148,7 @@ function showNextMessage() {
                 prevElement.style.display = 'none';
             }
             showNextMessage();
-        }, 2500);
+        }, 3500);
     } else {
         msgYes.style.display = 'block';
         msgYes.classList.add('show');
